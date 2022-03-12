@@ -4,15 +4,9 @@ import androidx.databinding.BaseObservable
 import androidx.databinding.ObservableField
 
 class CalculatorViewModel: BaseObservable(), Calculator {
-    override var display: ObservableField<String>
-        get() = TODO("Not yet implemented")
-        set(value) {}
+    override var display = ObservableField<String>()
 
-    override var hasPoint: Boolean
-        get() = TODO("Not yet implemented")
-        set(value) {}
-
-    override fun addDigit(number: Int) {
+    override fun addDigit(dig: Int) {
         TODO("Not yet implemented")
     }
 
