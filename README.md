@@ -10,4 +10,6 @@ The connection between ViewModel and Layout is implemented with [DataBinding](ht
 
 The functional part of the view model is described in the Calculator interface.
 
+the layout can be done in any way you want, but should at least have the stock calculator functionality:
+
 ![A simple calculator interface](images/calc.jpg)
