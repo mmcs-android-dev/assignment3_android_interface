@@ -2,6 +2,8 @@ package mmcs.assignment3_calculator.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
+import android.widget.Toast
 import androidx.databinding.DataBindingUtil
 import mmcs.assignment3_calculator.R
 import mmcs.assignment3_calculator.databinding.ActivityMainBinding
@@ -21,5 +23,10 @@ class MainActivity : AppCompatActivity() {
         viewModel = CalculatorViewModel()
 
         mainBinding.viewModel = viewModel
+        viewModel.display.set("Hello World")
+
+        findViewById<Button>(R.id.button1).setOnClickListener{}
+
+
     }
 }

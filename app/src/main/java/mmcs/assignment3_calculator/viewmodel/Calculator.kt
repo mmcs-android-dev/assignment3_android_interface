@@ -5,7 +5,7 @@ import androidx.databinding.ObservableField
 enum class Operation { ADD, SUB, MUL, DIV }
 
 interface Calculator {
-
+    val calc: String  get() {return "Calculate"}
     // Observable display, should be referenced in layout
     var display: ObservableField<String>
 

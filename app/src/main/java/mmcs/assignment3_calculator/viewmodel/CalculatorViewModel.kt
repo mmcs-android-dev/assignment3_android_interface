@@ -19,7 +19,7 @@ class CalculatorViewModel: BaseObservable(), Calculator {
     }
 
     override fun compute() {
-        TODO("Not yet implemented")
+        display.set("100000000")
     }
 
     override fun clear() {
